@@ -6,20 +6,17 @@ class Hobbit {
         this.old = false;
         this.hasRing = false
     }
+
     celebrateBirthday() {
         this.age++
-    }
-    timeTravel() {
-    if (this.age <= 32) {
-      this.adult = false;
-    }
-    if (this.age >= 33) {
-      this.adult = true;
-    }
+     if (this.age >= 33) {
+      this.adult = true
+     }
     if (this.age >= 101) {
-      this.old = true;
+      this.old = true
     }
-  }
+    }
+
   getRing() {
     if(this.name === 'Frodo' ){
         this.hasRing = true
